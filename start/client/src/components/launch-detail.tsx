@@ -10,6 +10,7 @@ const LaunchDetail: React.FC<any> = ({ id, site, rocket }: any) => (
       backgroundImage: getBackgroundImage(id as string),
     }}
   >
+      <h4>{id}</h4>
     <h3>
       {rocket && rocket.name} ({rocket && rocket.type})
     </h3>
